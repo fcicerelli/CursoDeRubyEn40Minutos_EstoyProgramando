@@ -1,1 +1,2 @@
-# http-base-internet_Alura
+# Curso De Ruby En 40 Minutos
+de: Estoy Programando

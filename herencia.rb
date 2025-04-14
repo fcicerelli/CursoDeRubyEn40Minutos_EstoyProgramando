@@ -1,9 +1,10 @@
 # Herencia
 
 require_relative 'clases'
+require_relative 'modulos'
 
 class Empleado < Persona
-
+  include Saludar
   attr_accessor :salario
   
   def initialize(nombre, apellido, salario)
@@ -21,3 +22,4 @@ empleado = Empleado.new('Juan', 'Arce', 10000)
 p empleado.nombre_completo
 p empleado.nombre_con_salario
 p empleado.salario
+p empleado.saluda
